@@ -1,0 +1,123 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="321291091" file="/Users/hemang/Library/Mobile Documents/com~apple~CloudDocs/UCD/ENG006A04/FinalProject/Help/ENG006-Dicegame-main/Dicegame/DiceGame.prj" location="/Users/hemang/Library/Mobile Documents/com~apple~CloudDocs/UCD/ENG006A04/FinalProject/Help/ENG006-Dicegame-main/Dicegame" name="DiceGame" target="target.mlapps" target-name="Package App">
+    <param.appname>DiceGame</param.appname>
+    <param.authnamewatermark>DiceGame35</param.authnamewatermark>
+    <param.email>hesharma@ucdavis.edu</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Each player first select if they will attack or heal with the help of the rocker switch. Then the players will press the ROLL button. Numbers on the dice will get compared and then attcak or heal action will get performed. Battle log button will show each roll status and help button will show how to play image.</param.description>
+    <param.screenshot>/private/var/folders/yl/2_lkv6w1327fj4dyhlmvjx080000gn/T/tp705b2cbc_a0b3_4e52_8e6a_9c91b736f529.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/hemang/Library/Mobile Documents/com~apple~CloudDocs/UCD/ENG006A04/FinalProject/Help/ENG006-Dicegame-main</param.output>
+    <param.guid>2c3abf7a-aa08-467c-8393-0f739337f91d</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/dicegame.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/1.jpg</file>
+      <file>${PROJECT_ROOT}/2.jpg</file>
+      <file>${PROJECT_ROOT}/3.jpg</file>
+      <file>${PROJECT_ROOT}/4.jpg</file>
+      <file>${PROJECT_ROOT}/5.jpg</file>
+      <file>${PROJECT_ROOT}/6.jpg</file>
+      <file>${PROJECT_ROOT}/back.png</file>
+      <file>${PROJECT_ROOT}/blank.jpg</file>
+      <file>${PROJECT_ROOT}/help.png</file>
+      <file>${PROJECT_ROOT}/hp0.png</file>
+      <file>${PROJECT_ROOT}/hp1.png</file>
+      <file>${PROJECT_ROOT}/hp10.png</file>
+      <file>${PROJECT_ROOT}/hp2.png</file>
+      <file>${PROJECT_ROOT}/hp3.png</file>
+      <file>${PROJECT_ROOT}/hp4.png</file>
+      <file>${PROJECT_ROOT}/hp5.png</file>
+      <file>${PROJECT_ROOT}/hp6.png</file>
+      <file>${PROJECT_ROOT}/hp7.png</file>
+      <file>${PROJECT_ROOT}/hp8.png</file>
+      <file>${PROJECT_ROOT}/hp9.png</file>
+      <file>${PROJECT_ROOT}/player1hp0.png</file>
+      <file>${PROJECT_ROOT}/player1hp1.png</file>
+      <file>${PROJECT_ROOT}/player1hp10.png</file>
+      <file>${PROJECT_ROOT}/player1hp2.png</file>
+      <file>${PROJECT_ROOT}/player1hp3.png</file>
+      <file>${PROJECT_ROOT}/player1hp4.png</file>
+      <file>${PROJECT_ROOT}/player1hp5.png</file>
+      <file>${PROJECT_ROOT}/player1hp6.png</file>
+      <file>${PROJECT_ROOT}/player1hp7.png</file>
+      <file>${PROJECT_ROOT}/player1hp8.png</file>
+      <file>${PROJECT_ROOT}/player1hp9.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/hemang/Library/Mobile Documents/com~apple~CloudDocs/UCD/ENG006A04/FinalProject/Help" name="ENG006-Dicegame-main" optional="false">/Users/hemang/Library/Mobile Documents/com~apple~CloudDocs/UCD/ENG006A04/FinalProject/Help/ENG006-Dicegame-main</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021b.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>12.2.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
